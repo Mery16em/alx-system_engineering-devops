@@ -1,2 +1,14 @@
 #!/bin/bash
+
+# Print current directory (includes hidden)
+printf "Current Directory:\n"
+ls -la .
+
+# Print parent directory (includes hidden)
+printf "\nParent Directory:\n"
+ls -la ../
+
+# Print /boot directory (includes hidden, assumes permission)
+printf "\n/boot Directory:\n"
 ls -la /boot
+
