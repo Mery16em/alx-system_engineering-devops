@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Your input text here" | tr 'Ac' 'Ze'
+tr 'Ac' 'Ze' < input.txt > output.txt
