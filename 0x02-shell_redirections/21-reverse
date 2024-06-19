@@ -1,0 +1,2 @@
+#!/bin/bash
+read -p "Enter a string to reverse: " input && echo "$input" | rev
