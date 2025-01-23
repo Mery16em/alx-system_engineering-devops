@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # script that installs nginx
-# # doubles the number of webservers and adds new configs
+# # doubles the number of webservers web1, web2 and  adds new configs
 
 # install nginx
 apt-get  update ; apt-get -y install nginx
